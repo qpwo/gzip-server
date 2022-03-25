@@ -1,0 +1,18 @@
+{
+    "name": "gzip-server",
+    "bin": {
+        "gzip-server": "gzip-server.js"
+    },
+    "version": "1.0.0",
+    "description": "Simple static asset server with gzip compression, so you can figure out what slows down production page load time",
+    "repository": "https://github.com/qpwo/gzip-server",
+    "author": "Luke Harold Miles",
+    "license": "MIT",
+    "dependencies": {
+        "compression": ">=1",
+        "express": ">=3"
+    },
+    "devDependencies": {
+        "esbuild": "^0.14.27"
+    }
+}
