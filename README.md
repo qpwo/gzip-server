@@ -4,6 +4,8 @@ Simple static asset server with gzip compression, so you can figure out what slo
 
 (For example, JSON will be very large without compression, but shrinking it is not worth the trouble since it compresses so well.)
 
+**Don't want the dependencies?** `npm i gzip-server-prebuilt` . ([link](https://www.npmjs.com/package/gzip-server-prebuilt))
+
 #### npx
 
 ```sh
